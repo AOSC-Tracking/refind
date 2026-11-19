@@ -357,7 +357,7 @@ CheckForFiles() {
            ThisDir="$(dirname "$(readlink -f "$0")")"
            ;;
    esac
-   RefindDir="$ThisDir/refind"
+   RefindDir="/usr/lib/refind"
 
    if [[ ! -f "$RefindDir/refind_$Platform.efi" ]] ; then
       echo "The rEFInd binary file is missing! Aborting installation!"
