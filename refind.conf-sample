@@ -475,7 +475,7 @@ use_nvram false
 # Default is "vmlinuz,bzImage,kernel", except on ARM64, where it is
 # "vmlinuz,Image,kernel".
 #
-#linux_prefixes vmlinuz,bzImage,kernel
+#linux_prefixes vmlinux,vmlinuz,bzImage,kernel
 #linux_prefixes +,zImage
 
 # Comma-delimited list of strings to treat as if they were numbers for the

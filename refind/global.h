@@ -204,9 +204,9 @@
 // scan_all_linux_kernels option is set in the configuration file. Causes kernels WITHOUT
 // a ".efi" extension to be found when scanning for boot loaders.
 #if defined(EFIAARCH64)
-#define LINUX_PREFIXES          L"vmlinuz,Image,kernel"
+#define LINUX_PREFIXES          L"vmlinux,vmlinuz,Image,kernel"
 #else
-#define LINUX_PREFIXES          L"vmlinuz,bzImage,kernel"
+#define LINUX_PREFIXES          L"vmlinux,vmlinuz,bzImage,kernel"
 #endif
 
 // Definitions for the "hideui" option in refind.conf
